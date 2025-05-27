@@ -4,7 +4,7 @@ name, email, password, age, country
 
 import { Schema, model } from "mongoose";
 
-const gamesSchema = new Schema(
+const clientsSchema = new Schema(
     {
        name: {
         type: String
@@ -34,4 +34,4 @@ const gamesSchema = new Schema(
     }
 )
 
-export default model("games", gamesSchema)
+export default model("clients", clientsSchema)
